@@ -74,7 +74,7 @@ plugins:
           attributes: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.attributes
 
 nav:
-  - Introduction: introduction.md
+  - Introduction: index.md
   - Get access: getaccess.md
   - Getting started: 
     - Interface overview: interfaceoverview.md
