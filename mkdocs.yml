@@ -1,0 +1,89 @@
+site_name: Documentation
+#TODO
+site_url: https://example.com
+
+theme:
+  name: material
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: custom
+      accent: custom
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: custom
+      accent: custom
+  font:
+    text: Roboto
+  logo: assets/400PngdpiLogoCroppedW.png
+  favicon: assets/favicon_wings.png
+  features:
+    #- navigation.footer
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: simple/googlehome
+      link: https://www.ravenbiosciences.com/products/chemx/
+    - icon: simple/linkedin
+      link: https://www.linkedin.com/products/raven-biosciences-ravensai-chemx/
+  generator: false
+
+copyright: Copyright &copy; 2024 Raven biosciences
+
+plugins:
+  - search
+  - exporter:
+      formats:
+        pdf:
+          enabled: !ENV [MKDOCS_EXPORTER_PDF_ENABLED, true]
+      buttons:
+        - title: Download as PDF
+          icon: material-file-download-outline
+          enabled: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.enabled
+          attributes: !!python/name:mkdocs_exporter.formats.pdf.buttons.download.attributes
+
+nav:
+  - Introduction: introduction.md
+  - Get access: getaccess.md
+  - Getting started: 
+    - Interface overview: interfaceoverview.md
+    - Tutorial: tutorial.md
+    - Glossary: glossary.md
+  - Getting help:  
+    - FAQ: FAQ.md
+    - Troubleshooting: troubleshooting.md
+  - System requirements: systemrequirements.md
+  - Support: support.md
+  - EULA: eula.md
+
