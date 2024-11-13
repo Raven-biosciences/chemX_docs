@@ -153,7 +153,7 @@ A counterfactual is always relative to a representative molecule, and is a molec
 
 By analysing the important features and a few counterfactuals, you can start to understand what the model picked up on from your data and use it as a quick sanity check of the model as well.
 
-!!! info "IMPORTANT"
+!!! warning "IMPORTANT"
     Be aware that the explainability analysis uses the predicted target parameter and not the target parameter from your training set as the analysis is intended to evaluate the model and not the original data. 
 
 ## Using the model for screening
