@@ -1,6 +1,6 @@
 ## I can't get my target data normally distributed. Can I still train a regression model?
 
-Yes, even though you don't have normally distributed target data, it is still possible to train a regression model using a subset of the machine learning algorithms that chemX employs under the hood. 
+Yes, even though you don't have normally distributed target data, it is still possible to train a regression model using a subset of the machine learning algorithms that ChemX employs under the hood. 
 
 ## All my models have R² below 0.5. What am I doing wrong?
 
@@ -10,7 +10,7 @@ The best way forward could be to train a categorical model on the whole dataset 
 
 ## I am getting negative R² values for my models. What is happening?
 
-The R² metric used in chemX is calculated as one minus the ratio of the mean squared error (MSE) of the model predictions over the MSE of the trivial model predictions (constant number). The reported R² is therefore not the classic R² many of us have learned in school when learning to fit regression models.
+The R² metric used in ChemX is calculated as one minus the ratio of the mean squared error (MSE) of the model predictions over the MSE of the trivial model predictions (constant number). The reported R² is therefore not the classic R² many of us have learned in school when learning to fit regression models.
 
 A value of 1 indicates perfect predictions, while values around 0 indicate that the regression results are no different than the trivial approach of constantly predicting the average value of the outcome. Negative values indicate that the model is worse than the trivial approach.
 
@@ -33,6 +33,6 @@ After you have applied a model to a screening library, you can see a UMAP of bot
 
 ## I know some of my molecules are (de)protonated at the pH I run my experiment, but sanitization removes all changes I make in my csv-file. What do I do?
 
-If you expect the protonation state to be important for predicting your target paramater, then you have to edit your SMILES accordingly and deselect sanitization upon upload to chemX.
+If you expect the protonation state to be important for predicting your target paramater, then you have to edit your SMILES accordingly and deselect sanitization upon upload to ChemX.
 
 

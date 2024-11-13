@@ -3,6 +3,12 @@
 `Bemis-Murcko scaffold`
 : A Bemis-Murcko scaffold is simply the molecular core of a compound with the side chains removed per a set of predefined rules and with certain hetero atoms being replaced by more generic hetero atom placeholders.
 
+`BoxCox transformation`
+: A BoxCox transformation belongs to the family of power transformations and it transforms non-normally distributed data to (near)normally distributed data. It only works on positive data points, so your data is shifted if you have negative values in your target data.
+
+`Counterfactual`
+: A counterfactual molecule is a molecule of high structural similarity with low property similarity relative to a base molecule. As an example, if your base molecule is a strong inhibitor of its target protein, then a counterfactual molecule will be a poor inhibitor that is structurally very similar to the base molecule.
+
 `Featurization`
 : Molecules have to be translated into vector or matrix format before you can train a machine learning model. This is called featurization of the molecules. 
 
@@ -30,6 +36,8 @@
 `UMAP`
 : A UMAP is a reduced dimension representation of the chemical complexity. If two molecules are very different according to their circular fingerprints, then they are distant in the UMAP and vice versa. **Note, the exact distance between two clusters is not interpretable and the size of a cluster relative to other cluster sizes is also not interpretable.**
 
+`Yeo-Johnson transformation`
+: A Yeo-Johnson transformation belongs to the family of power transformations and it transforms non-normally distributed data to (near)normally distributed data. It accepts both negative and positive values.
 
 
 

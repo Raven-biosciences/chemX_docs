@@ -1,4 +1,4 @@
-# Welcome to RavensAI's chemX!
+# Welcome to RavensAI's ChemX!
 
 ***ChemX is our automated machine learning platform specifically designed for molecular data.***
 

@@ -16,7 +16,7 @@ To ease navigation when doing the tutorial we set up the following style to guid
 
 This lighter font is the base font and is used when discussing considerations required at each part of the tutorial.
 
-**This bold font denotes actions required to follow the tutorial. When referencing menu items or action items from chemX are stated in** ***italics***. 
+**This bold font denotes actions required to follow the tutorial. When referencing menu items or action items from ChemX are stated in** ***italics***. 
 
 Additionally, we have added boxes with Extended Information which is not esssential to complete the tutorial, but relevant if you are unfamiliar with training machine learning models for molecular datasets.
 
@@ -38,11 +38,11 @@ Following upload, you are taken to the below view. If any molecule presented war
 A common warning is the detection of a chiral molecule that didn’t have a specific chirality assigned. Most often, this warning can be ignored, but if explicit chirality is not assigned, remember that the resulting model will be unable to distinguish between stereoisomers. When you have convinced yourself that all warnings can be ignored, click Target Parameters in the top bar.
 
 ??? info "Extended information: 3D structures" 
-    The 3D conformation of a molecule is required for some feraturizers, but finding it is generally time consuming. Therefore, users can initiate the conformational search as in independent task immediately after upload (Actions > Generate 3D structures). Otherwise, the conformational search task is initiated if a featurizer that depends on the conformation is selected for modelling. 
+    The 3D conformation of a molecule is required for some feraturizers, but finding it is generally time consuming. Therefore, users can initiate the conformational search as in independent task immediately after upload (Additional Actions > Generate 3D structures). Otherwise, the conformational search task is initiated if a featurizer that depends on the conformation is selected for modelling. 
 
     ChemX has different conformational searching algorithms implemented to ensure appropriate sampling for both small molecules and macrocycles.
 
-    If you have preexisting 3D structures of your molecules you can skip this step and upload them directly to chemX when creating a project.
+    If you have preexisting 3D structures of your molecules you can skip this step and upload them directly to ChemX when creating a project.
 
 ## Preparing a dataset for modelling
 
@@ -52,12 +52,12 @@ A common warning is the detection of a chiral molecule that didn’t have a spec
 
 On the left, you are shown a histogram of the uploaded target parameter to help you identify potential problems with your dataset. Below the plot, the min and max values are reported as well as the calculated skew and kurtosis of the distribution. Skew and kurtosis are measures of how close to normally distributed a distribution is. Several of the machine learning algorithms that will be tested in later steps only work if the data is normally distributed, so if your data is not, it is worth trying out a few transformations to try and remedy this. 
 
-**From the right-hand action panel, click *Transform Data*. Here you can perform a log transformation, a BoxCox transformation, and a Yeo-Johnson transformation. You can also easily convert your quantitative dataset to a categorical dataset with two bins by defining the threshold between bins.**
+**From the right-hand Additional Actions panel, click *Transform Data*. Here you can perform a log transformation, a BoxCox transformation, and a Yeo-Johnson transformation. You can also easily convert your quantitative dataset to a categorical dataset with two bins by defining the threshold between bins.**
 
 If the data remain not normally distributed following transformation it is still possible to train a machine learning model using other algorithms.
 
 ??? info "Extended information: Target parameter types" 
-    The target parameters are automatically assigned as either categorical or quantitative upon upload. If the automatic assignment was wrong you can reassign the type by clicking Reassign Parameter Type in the Action panel on the right. Likewise, if you had a column with molecule names in your dataset that was read as a target parameter, you can reassign the column type to text.
+    The target parameters are automatically assigned as either categorical or quantitative upon upload. If the automatic assignment was wrong you can reassign the type by clicking Reassign Parameter Type in the Additional Actions panel on the right. Likewise, if you had a column with molecule names in your dataset that was read as a target parameter, you can reassign the column type to text.
 
 ??? info "Extended information: Skew and kurtosis" 
     Skew refers to the symmetry of a distribution around the mean while kurtosis refers to a distribution being heavy- or light-tailed compared to a normal distribution or, in other words, being a flat or pointy distribution. 
@@ -66,7 +66,7 @@ If the data remain not normally distributed following transformation it is still
 
 Molecules have to be translated into vector or matrix format before you can train a machine learning model. This is called featurization of the molecules. Many different featurizers have been developed and each capture only part of the chemistry of a molecule, so it is important to select a featurizer that can capture the information required to predict a given target parameter. Many featurizers result in highly abstract features and are not easily interpreted if at all. 
 
-**Go to *Actions > Featurize and Model data*. From a dropdown menu you select which of your target parameters or transforms thereof you would like to train models on, and below that you select which featurizers you would like to base the models on. Click *SUBMIT* when ready to start modelling and go grab a coffee or the like as a modelling job can take hours to complete.**
+**Go to *Workflow > Featurize and Model data*. From a dropdown menu you select which of your target parameters or transforms thereof you would like to train models on, and below that you select which featurizers you would like to base the models on. Click *SUBMIT* when ready to start modelling and go grab a coffee or the like as a modelling job can take hours to complete.**
 
 The featurizers are subdivided into 1D-, 2D-, and 3D featurizers to help users select the appropriate featurizer. Generally, the higher the dimensionality, the higher the complexity, and thus the higher the time required to featurize the molecules. 
 
@@ -83,22 +83,22 @@ The featurizers are subdivided into 1D-, 2D-, and 3D featurizers to help users s
 
 Each modelling task is summarised in the heatmap with rows indicating a particular view of your data - either the raw data you uploaded or a transformation of that data - and columns indicating the featurizer used during modelling. By default, regression models are compared by their R² performance, but you can easily compare them by their mean absolute error (MAE) or their Spearman correlation coefficient (CC) by clicking the respective buttons above the heatmap. For classification models, the area under the ROC curve is shown by default, but the area under the precision-recall curve can also be used as evaluation metric. 
 
-Each cell represents a series of automated machine leattning modelling where a wide range of machine learning algorithms are tried out and hyperparameters are optimized for each one. When the best algorithm and hyperparameter set has been identified, modelling is performed using many different data splits and folds (i.e. division of the data into training- and test sets, a process known as generalized cross validation) to ensure a robust model and overfitting is further prevented by a bootstrap bias correction cross validation algorithm that corrects the performance estimate. The number of data splits and folds depends on the size of your dataset and the balance between categories. The mean performance from this series of splits is what is shown in the cell.
+Each cell represents a series of automated machine learning modelling where a wide range of machine learning algorithms are tried out and hyperparameters are optimized for each one. When the best algorithm and hyperparameter set has been identified, modelling is performed using many different data splits and folds (i.e. division of the data into training- and test sets, a process known as generalized cross validation) to ensure a robust model. Overfitting is further prevented by a bootstrap bias correction cross validation algorithm that corrects the performance estimate. The number of data splits and folds depends on the size of your dataset and the balance between categories. The mean performance from this series of splits is what is shown in the cell.
 
 Be aware that the best regression model may not be the model with the highest R². A few things to consider: 
 
 1. When models are trained multiple times using different data splits for training and testing sets the calculated performance varies to some extent. Therefore, when comparing model performance, the variation should be considered too to assess if two models actually perform differently. Use the reported 95% confidence interval for each model; if the intervals of the models do not overlap their performances are significantly different. Be aware that the opposite is not necessarily the case!
 2. Two models with significantly different R² values may not have significantly different MAE and vice versa. 
-3. Consider how you intend to use the model down the line. Will it be used as a quick filter on large molecule libraries? If so, then it might be best to choose a slightly less predictive model that uses a quicker featurizert and is much faster to screen with. 
-4. Ensure that the model didn’t pick up on random correlations between target parameter and features e.g. when training a model that predicts orbital energies, a simple featurizer like RDKit descriptors does not encode the chemical complexity necessary to predict quantum mechanical properties. For more information on how to assess this, go to the “Probing the model” section of this tutorial.
+3. Consider how you intend to use the model down the line. Will it be used as a quick filter on large molecule libraries? If so, then it might be best to choose a slightly less predictive model that uses a quicker featurizer and is much faster to screen with. 
+4. Ensure that the model did not pick up on random correlations between target parameter and features e.g. when training a model that predicts orbital energies, a simple featurizer like RDKit descriptors does not encode the chemical complexity necessary to predict quantum mechanical properties. For more information on how to assess this, go to the “Probing the model” section of this tutorial.
 
 ??? info "Extended information: Machine learning algorithms and hyperparameters" 
     ChemX tries out the following machine learning algorithms: decision trees, Ridge regression, random forests, and support vector machines.
 
-    While training models, an algorithm will optimize its parameters, e.g. the slope and intercept for a linear regression, but the algorithm’s hyperparameters are set before training and each algorithm has its own et of hyperparameters that adjusts how it models the data. For example, for a random forest algorithm, hyperparameters include number of trees, leaf size, splitting criteria to name a few. 
+    While training models, an algorithm will optimize its parameters, e.g. the slope and intercept for a linear regression, but the algorithm’s hyperparameters are set before training and each algorithm has its own set of hyperparameters that adjusts how it models the data. For example, for a random forest algorithm, hyperparameters include number of trees, leaf size, splitting criteria to name a few. 
 
 ??? info "Extended information: The R² metric" 
-    The R² metric used in chemX is calculated as one minus the ratio of the mean squared error (MSE) of the model predictions over the MSE of the trivial model predictions (constant number). A value of 1 indicates perfect predictions, while values around 0 indicate that the regression results are no different than the trivial approach of constantly predicting the average value of the outcome. Negative values indicate that the model is worse than the trivial approach.
+    The R² metric used in ChemX is calculated as one minus the ratio of the mean squared error (MSE) of the model predictions over the MSE of the trivial model predictions (constant number). A value of 1 indicates perfect predictions, while values around 0 indicate that the regression results are no different than the trivial approach of constantly predicting the average value of the outcome. Negative values indicate that the model is worse than the trivial approach.
 
     The reported R² is therefore not the classic R² many of us have learned in school when learning to fit regression models.
 
@@ -110,13 +110,13 @@ Be aware that the best regression model may not be the model with the highest R�
 
 When a promising model has been identified it is possible to probe the model for what chemical features it found important for predicting the target parameter despite the featurization and machine leattning algorithm likely obscuring interpretation and explainability.
 
-All of the explainanability analyses available in chemX are calculated relative to a representative molecule of particular interest. This molecule may simply be the best performer from your dataset, but chemX also allows you to select representatives based on both performance and structural similarity to other molecules in the dataset. 
+All of the explainanability analyses available in ChemX are calculated relative to a representative molecule of particular interest. This molecule may simply be the best performer from your dataset, but ChemX also allows you to select representatives based on both performance and structural similarity to other molecules in the dataset. 
 
-**Go to *Actions > Explain* Model which will take you to the view below.**
+**Go to *Workflow > Explain Regression Model* which will take you to the view below.**
 
 ![](./assets/ExplainWizardA.png) 
 
-**Select the target parameter and featurizer of the model you are interested in learning more about and inform chemX if lower og higher values are considered good for your particular target parameter. Then choose between clustering molecules to find representatives or manual selection of molecules before clicking *NEXT*.**
+**Select the target parameter and featurizer of the model you are interested in learning more about and inform ChemX if lower og higher values are considered good for your particular target parameter. Then choose between clustering molecules to find representatives or manual selection of molecules before clicking *NEXT*.**
 
 **If you chose manual selection, you get to the below view. If you have a specific molecule of interest you can supply its ID directly. If not, you can choose between top X molecules or top X % of molecules in the dataset as representatives for explainability analysis. X can be set freely in both cases.**
 
@@ -143,13 +143,13 @@ Here you see a list of the representative molecules along with their predicted p
 
 Here you are presented with 
 
-1. an AI-generated summary of the analysis, 
-2. Important features from a so-called surrogate model, and 
-3. a counterfactual analysis. 
+1. An AI-generated summary of the analysis.
+2. Important features from a so-called surrogate model.
+3. A counterfactual analysis. 
 
-The feature importance plot is independent of the overall model, and instead is based on a so-called surrogate model. A surrogate model is an interpretable, local model fitted around a data point of interest e.g. the best performing molecule. The shown features are based on 2D ECFP fingerprints and are those that have the biggest influence on the prediction for the molecule in question. The feature importance is shown on a scale of t-statistics, which evaluates the importance of a feature relative to the average importance. It is similar to the z-score, but applicaple to small datasets. The green and red bars show features that influence the prediction positively and negatively,respectively, and the horisontal yellow line denotes the significance threshold.
+The feature importance plot is independent of the overall model, and instead is based on a so-called surrogate model. A surrogate model is an interpretable, local model fitted around a data point of interest e.g. the best performing molecule. The shown features are based on 2D circular fingerprints and are those that have the biggest influence on the prediction for the molecule in question. The feature importance is shown on a scale of t-statistics, which evaluates the importance of a feature relative to the average importance. It is similar to the z-score, but applicaple to small datasets. The green and red bars show features that influence the prediction positively and negatively, respectively, and the horisontal yellow line denotes the significance threshold.
 
-A counterfactual is always relative to a representative molecule, and is a molecule that is structurally similar, but functionally different, to the representative molecule. In this case, the representative molecule is one of the best inhibitors in the BACE dataset, and a counterfactual would be near-identical molecules that are poor inhibitors. Analysing the counterfactual molecules for a few of the best inhibitors, e.g. a few with different scaffolds, will help you build a understanding of the structure-properti relationship of your data - as the model captured it. 
+A counterfactual is always relative to a representative molecule, and is a molecule that is structurally similar, but functionally different, to the representative molecule. In this case, the representative molecule is one of the best inhibitors in the BACE dataset, and a counterfactual would be near-identical molecules that are poor inhibitors. Analysing the counterfactual molecules for a few of the best inhibitors, e.g. a few with different scaffolds, will help you build an understanding of the structure-property relationship of your data - as the model captured it. 
 
 By analysing the important features and a few counterfactuals, you can start to understand what the model picked up on from your data and use it as a quick sanity check of the model as well.
 
@@ -158,7 +158,7 @@ By analysing the important features and a few counterfactuals, you can start to 
 
 ## Using the model for screening
 
-**When you have selected a model you would like to use for screening simply go to *Actions > Add Favorite Model*.The model and its metadata is now stored under My Models in the left-hand side navigation panel and chemX will remember the featurizer to use when applying it and how the target paramater was transformed during modelling.**   
+**When you have selected a model you would like to use for screening simply go to *Workflow > Save Favorite Model*.The model and its metadata is now stored under My Models in the left-hand side navigation panel and ChemX will remember the featurizer to use when applying it and how the target paramater was transformed during modelling.**   
 
 **To upload a screening library, simply go to *Screening Libraries* in the left-hand side navigation panel and click *UPLOAD*. When uploaded, you can assess the molecules at *Screening Libraries > YourLibraryName* by clicking *Molecules* in the top bar analogously to when you upload a dataset for modelling.**  
 
@@ -170,13 +170,16 @@ If you don’t have in-house screening libraries of interest it is worth having 
 
 Here you get an overview of the predicted performance of your library. Did anything perform better than your original dataset? 
 
-When evaluating the results it is important to consider the model’s applicability to your screening library. When modelling based on molecular structure, a common pitfall is trainging you model on one type of chemistry and then using it on another type of chemistry that the model has learnt nothing about. One way to assess this is by using UMAPs - the reduced dimensionality plots we have seen a few times in this tutorial already. This time we map both the training data and the screening library in the same map to see if the molecules in the screening library are similar to what the model was trained on. If both datasets exist in the different groupings then the chemical complexity is similar. If the map has many distinct groupings with molecules from only one of the datasets then the model, or if there is no overlap at all, then the model has to extrapolate its learnings to unknown chemistry and you should proceed with caution.
+When evaluating the results it is important to consider the model’s applicability to your screening library. One way to assess this is by using UMAPs - the reduced dimensionality plots we have seen a few times in this tutorial already. This time we map both the training data and the screening library in the same map to see if the molecules in the screening library are similar to what the model was trained on. If both datasets exist in the different groupings then the chemical complexity is similar. If the map has many distinct groupings with molecules from only one of the datasets then the model, or if there is no overlap at all, then the model has to extrapolate its learnings to unknown chemistry and you should proceed with caution.
+
+!!! warning "IMPORTANT"
+    When modelling based on molecular structure, a common pitfall is training you model on one type of chemistry and then using it on another type of chemistry that the model has learnt nothing about.
 
 ## Exploring the screening results
 
 When a screening is complete, you can explore the results using the same explainability analyses as was used when probing a model (see the [Probing the model section](#probing-the-model) for details). 
 
-Use the clustering options to identify trends of good performers across the chemical complexity or apply clustering by Murcko scaffold option to look for enriched scaffolds in the data. Perform explainability analysis on top (predicted) performers to ask the model why those molecules were predicted to be so good - what chemical features were important for the prediction and can you start to build a structure/activity relationship from the data?  
+Use the clustering options to identify trends of good performers across the chemical complexity or apply clustering by Murcko scaffold option to look for enriched scaffolds in the data. Perform explainability analysis on top (predicted) performers to ask the model why those molecules were predicted to be so good - what chemical features were important for the prediction and can you start to build a structure-activity relationship from the data?  
 
 
 
