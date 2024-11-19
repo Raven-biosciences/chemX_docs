@@ -16,13 +16,13 @@
 `Can I try out ChemX before buying it?`
 : Yes, it is possible to get access to a trial version of ChemX. The trial version is fully funtional except for the option to upload your own dataset. You can only test on pre-linked datasets from MoleculeNet.
 
+## Technical aspects
+
 `Is there a limit to how many molecules I can model at once?`
 : Yes, there is a hard limit of 200,000 molecules during modelling. We recommend using less than 100,000 molecules for modelling to keep the experience smooth.
 
 `Is there a limit on how many molecules I can screen at once?`
 : No, there is no limit to how many molecules you can screen; however, be aware that even the rapid 1-dimensional featurizers like RDKit take hours to calculate for 1 mio. molecules.
-
-## Technical issues
 
 `How do I reverse a transformation on my screening results so I can interpret my results?`
 : You don't have to! We realize that data transformations are sometimes unkown territory for our users, so we have applied a de-transformation step before you see any of the results - for MAE's, counterfactuals etc during modelling, and in your screening results later on.
