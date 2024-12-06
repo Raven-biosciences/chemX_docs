@@ -8,6 +8,12 @@ If all you models have poor predictive power, then you should go back to check t
 
 The best way forward could be to train a categorical model on the whole dataset that can predict if a molecule is good or poor overall, and then train a regression model on the good subset of the data that can be used to rank the molecules found to be good by the categorical model.
 
+## I am trying to model a dataset (% inhibition at 1 uM) that is a perfect normal distribution, but I only create terrible models. What is going on?
+
+This is an excellent example of a major caveat of modelling. On the surface your data looks excellent for training machine learning models; however, due to the way the data was measured, there is likely considerable diversity in both structure and actual inhibitory power between molecules that are grouped together as 100 % inhibtion at i uM. I.e. some of the molecules may continue to invoke complete inhibition at sub-nM concentrations where others only do at uM concentration. This makes it next to impossible to train a good machine learning model. 
+
+Instead, we suggest you make a categorical model that splits the best inhibitors from the worst. If you have follow-up data on the good subset at lower inhibitor concentrations, then that can be used to train a regression model that can rank the good subset after the first model has identified them. Be aware that the regression model likely was trained on less diverse chemistry and may thus be less generalizable. 
+
 ## I am getting negative R² values for my models. What is happening?
 
 The R² metric used in ChemX is calculated as one minus the ratio of the mean squared error (MSE) of the model predictions over the MSE of the trivial model predictions (constant number). The reported R² is therefore not the classic R² many of us have learned in school when learning to fit regression models.
