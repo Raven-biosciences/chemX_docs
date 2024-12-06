@@ -31,7 +31,7 @@ Additionally, we have added boxes with Extended Information which is not esssent
 
 ![](./assets/CreateProject.png)
 
-Following upload, you are taken to the below view. If any molecule presented warnings during sanitization you can find them by sorting the table by "Warning" and look through them by clicking on the molecule. 
+Following upload, you are taken to the below view. If any molecule presented warnings during sanitization you can find them by sorting the table by "Warning" and look through them by clicking on the molecule ID. **If you move away from this view and need to re-find it, simply click *Check Molecules* in the Workflow panel on the right**
 
 ![](./assets/MoleculeView.png) 
 
@@ -46,7 +46,7 @@ A common warning is the detection of a chiral molecule that didn’t have a spec
 
 ## Preparing a dataset for modelling
 
-**Click *Target Parameters* in the top bar, and click *pIC50* to get to the view below.**
+**Click *Check Target Data* in the Workflow panel or *Target Parameters* in the top bar, and then select *pIC50* to get to the view below.**
 
 ![](./assets/InspectTargetData.png) 
 
@@ -164,7 +164,7 @@ By analysing the important features and a few counterfactuals, you can start to 
 
 If you don’t have in-house screening libraries of interest it is worth having a look at the [ZINC](https://cartblanche22.docking.org/) or [EnamineReal](https://enamine.net/compound-collections/real-compounds/real-database) databases. Especially ZINC is very handy, as you can download molecule libraries of lead-like molecules or other curated subsets and filter on compound purchasability. 
 
-**To apply a model, simply navigate to the model you want to use or the screening library you want to use it on and click *Screen with Favorite Model* in the *Actions* panel on the right. When the screening is complete, you can find the predictions at *Screening Libraries > YourLibraryName* and go to *Predicted Parameters* in the top bar and clicking the name of the screening task in the list. This will bring you to the below view.**
+**To apply a model, simply navigate to the model you want to use or the screening library you want to use it on and click *Screen with Favorite Model* in the Workflow panel on the right. When the screening is complete, you can find the predictions at *Screening Libraries > YourLibraryName* and go to *Predicted Parameters* in the top bar and clicking the name of the screening task in the list. This will bring you to the below view.**
 
 ![](./assets/ScreeningLibDetailedView.png)
 
