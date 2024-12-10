@@ -193,7 +193,7 @@ provided that the Customer shall cover all costs incurred by The Company in conn
 
 ## 11. CHANGES POLICY 
 
-**11.1** Changes to terms  
+**11.1** Changes in terms  
 
 The Company may change terms at any time for a variety of reasons, such as to reflect changes in applicable law or updates to services. The most current version will always be available on the website. In order for changes to become effective, The Company pay ask for your consent or provide you with sufficient notice of them. If you do not agree to any changes made in the terms of our service, you should stop using that service, otherwise you indicate your agreement for the updated terms. 
 
