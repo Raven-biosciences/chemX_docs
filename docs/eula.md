@@ -93,7 +93,7 @@ With respect to all Personal Data, The Company warrants that it shall:
 
 **4.3** take reasonable steps to ensure that only authorized personnel have access to such Personal Data and that any persons whom it authorizes to have access to the Personal Data are under obligations of confidentiality 
 
-**4.4** without undue delay after becoming aware, notify the Customer of any breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, Personal Data transmitted, stored or otherwise processed by The Company, its sub-processors, or any other identified or unidentified third party (a “Security Breach”); 
+**4.4** without undue delay after becoming aware, notify the Customer of any breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, Personal Data transmitted, stored or otherwise processed by The Company, its sub-processors, or any other identified or unidentified third party (a **“Security Breach”**); 
 
 **4.5** promptly provide the Customer with reasonable cooperation and assistance in respect of a Security Breach and all reasonable information in The Company’s possession concerning such Security Breach insofar as it affects the Customer, including, to the extent then known, the following: 
 
@@ -109,7 +109,7 @@ With respect to all Personal Data, The Company warrants that it shall:
 
 **4.6** not make any public announcement about a Security Breach without the prior written consent of the Customer, unless required by applicable law; 
 
-**4.7** promptly notify the Customer if it receives a request from a data subject of Customer to access, rectify or erase that individual’s Personal Data, or if a data subject objects to the processing of, or makes a data portability request in respect of, such Personal Data (each a “Data Subject Request”). The Company shall not respond to a Data Subject Request without the Customer’s prior written consent except to confirm that such request relates to the Customer, to which the Customer hereby agrees. To the extent that the Customer does not have the ability to address a Data Subject Request, then upon Customer’s request The Company shall provide reasonable assistance to the Customer to facilitate such Data Subject Request to the extent able and in line with applicable law. To the extent the Customer does not respond, The Company may respond to the Data Subject Request in any manner it deems appropriate. Customer shall cover all costs incurred by The Company in connection with its provision of such assistance or response; 
+**4.7** promptly notify the Customer if it receives a request from a data subject of Customer to access, rectify or erase that individual’s Personal Data, or if a data subject objects to the processing of, or makes a data portability request in respect of, such Personal Data (each a **“Data Subject Request”**). The Company shall not respond to a Data Subject Request without the Customer’s prior written consent except to confirm that such request relates to the Customer, to which the Customer hereby agrees. To the extent that the Customer does not have the ability to address a Data Subject Request, then upon Customer’s request The Company shall provide reasonable assistance to the Customer to facilitate such Data Subject Request to the extent able and in line with applicable law. To the extent the Customer does not respond, The Company may respond to the Data Subject Request in any manner it deems appropriate. Customer shall cover all costs incurred by The Company in connection with its provision of such assistance or response; 
 
 **4.8** other than to the extent required to comply with applicable law, following termination or expiry of the Main Agreement or completion of the Service, The Company will delete all Personal Data (including copies thereof) processed pursuant to this agreement, according to its retention policy; 
 
@@ -155,15 +155,15 @@ provided that the Customer shall cover all costs incurred by The Company in conn
 
 ## 7. PRICING AND PAYMENT TERMS 
 
-**7.1** The service may include automatically recurring monthly or annual payments (“Subscription Service“). If you activate Subscription Service, you authorize The Company to periodically charge, on a going-forward basis and until cancellation of either the recurring billing or your account, all accrued sums on or before the payment due date for the accrued sums.  
+**7.1** The service may include automatically recurring monthly or annual payments (**“Subscription Service“**). If you activate Subscription Service, you authorize The Company to periodically charge, on a going-forward basis and until cancellation of either the recurring billing or your account, all accrued sums on or before the payment due date for the accrued sums.  
 
-**7.2** The “Subscription Billing Date” is the date when you purchase your first subscription for the Service. You will be charged and billed on the Subscription Billing Date with all applicable fees for the next subscription period. The subscription will continue unless and until you cancel your subscription or The Company terminates it. You need to cancel your subscription before it renews in order to avoid being billed for the next periodic fee (“Subscription Fee“). 
+**7.2** The **“Subscription Billing Date”** is the date when you purchase your first subscription for the Service. You will be charged and billed on the Subscription Billing Date with all applicable fees for the next subscription period. The subscription will continue unless and until you cancel your subscription or The Company terminates it. You need to cancel your subscription before it renews in order to avoid being billed for the next periodic fee (**“Subscription Fee“**). 
 
 **7.3** The Company may suspend or terminate access to the Service for any account for which any amount is due, but unpaid.  
 
 ## 8. ORDERS 
 
-**8.1** The Subscription Fees vary according to the subscription plan the Customer chooses and which are available upon request or as updated on the RavensAI ChemX website. For customized services and solutions, the corresponding Subscription fees or services fees are set in the separate Order Form.  
+**8.1** The Subscription Fees vary according to the subscription plan the Customer chooses and which are available upon request or as updated on the [RavensAI ChemX website](https://www.ravenbiosciences.com/products/chemx/). For customized services and solutions, the corresponding Subscription fees or services fees are set in the separate Order Form.  
 
 **8.2** Subscription Fees’ payment is irrevocable and non-refundable, except as set forth in the Order Form and this Agreement. Customer shall provide The Company with complete and accurate billing and contact information during the registration and invoicing process. 
 
@@ -179,7 +179,7 @@ provided that the Customer shall cover all costs incurred by The Company in conn
 
 (a)  correct all Service Errors, including providing defect repair and programming corrections 
 
-(b)  Respond to and resolve reasonable support requests received by Customer by email email or telephone (see RavensAI ChemX website). For specialized and demanding support requests, The Company preserves the right to charge The Customer, based on a mutual agreement set in a separate Order Form. 
+(b)  Respond to and resolve reasonable support requests received by Customer by email email or telephone (see [RavensAI ChemX website](https://www.ravenbiosciences.com/products/chemx/)). For specialized and demanding support requests, The Company preserves the right to charge The Customer, based on a mutual agreement set in a separate Order Form. 
 
 **9.2** For reasonable supports requests, the response time will be based on the resolving time needed, but will not exceed 48 hours, starting from the receival of the support request, during a normal working week and - hours. 
 
