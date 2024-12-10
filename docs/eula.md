@@ -4,7 +4,7 @@
 
 #Software as a Service & Licensing agreement 
 
-These terms and conditions outline the rules and regulations for the use of RavensAI ChemX, reference to Raven biosciences’ website, located at RavensAI ChemX website. The system is a data analysis tool which is offered to customers as a ‘Software as a Service’ or Software licencing Solution. This Software as a Service & Software licensing Agreement (“Agreement”) is entered into between “Customer” and Raven biosciences ApS (“The Company”), owner RavensAI ChemX and with headquarter in Aarhus, Denmark. The Company and Customer agree that the following terms and conditions will apply to the Services provided under this Agreement and orders placed thereunder. 
+These terms and conditions outline the rules and regulations for the use of RavensAI ChemX, reference to Raven biosciences’ website, located at [RavensAI ChemX website](https://www.ravenbiosciences.com/products/chemx/). The system is a data analysis tool which is offered to customers as a ‘Software as a Service’ or Software licencing Solution. This Software as a Service & Software licensing Agreement (“Agreement”) is entered into between “Customer” and Raven biosciences ApS (“The Company”), owner RavensAI ChemX and with headquarter in Aarhus, Denmark. The Company and Customer agree that the following terms and conditions will apply to the Services provided under this Agreement and orders placed thereunder. 
 
 We kindly ask you to read this agreement before using our services. By accessing or using our software or service offering, you accept and agree to the terms and conditions of this agreement. 
 
@@ -13,45 +13,45 @@ BY CLICKING THE “I ACCEPT” BUTTON, SIGNING (EXECUTED IN ONE OR MORE COUNTERP
 ## 1. DEFINITIONS 
 **1.1** For purposes of this Agreement, the definitions set forth below apply: 
 
-“Customer” means you and any Company you represent  
+**“Customer”** means you and any Company you represent  
 
-“Authorized User” means any of Customers, employees, consultants, contractors or agents authorized by Customer to access and use the Services on behalf of Customers, in each case subject to such person’s agreement to be bound by the terms of this Agreement. 
+**“Authorized User”** means any of Customers, employees, consultants, contractors or agents authorized by Customer to access and use the Services on behalf of Customers, in each case subject to such person’s agreement to be bound by the terms of this Agreement. 
 
-“Software” means the object code version of any software Customer is provided and given access by The Company as part of the Service, under this Agreement, including any updates or new versions. 
+**“Software”** means the object code version of any software Customer is provided and given access by The Company as part of the Service, under this Agreement, including any updates or new versions. 
 
-“Data” means all data and materials provided by Customer to The Company for use in connection with the Services, including, without limitation, personal data (name, surname, email, organization, role, physical address, credit card and billing details, etc), datasets including genetic data, analyses’ results,  graphics, images etc. 
+**“Data”** means all data and materials provided by Customer to The Company for use in connection with the Services, including, without limitation, personal data (name, surname, email, organization, role, physical address, credit card and billing details, etc), datasets including genetic data, analyses’ results,  graphics, images etc. 
 
-“Personal Data” means all data which is defined as ‘personal data’ under General Data Protection Regulation (EU) 2016/679 and to which General Data Protection Regulation (EU) 2016/679 apply and which is provided by the Customer to The Company, and accessed, stored or otherwise processed by The Company as a data processor as part of its provision of the Service to Customer; 
+**“Personal Data”** means all data which is defined as ‘personal data’ under General Data Protection Regulation (EU) 2016/679 and to which General Data Protection Regulation (EU) 2016/679 apply and which is provided by the Customer to The Company, and accessed, stored or otherwise processed by The Company as a data processor as part of its provision of the Service to Customer; 
 
-“GDPR” means the General Data Protection Regulation (Regulation (EU) 2016/679 of the European Parliament and of the Council of 25 May 2018 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data); 
+**“GDPR”** means the General Data Protection Regulation (Regulation (EU) 2016/679 of the European Parliament and of the Council of 25 May 2018 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data); 
 
-“processing“, “data controller“, “data subject“, “supervisory authority” and “data processor” shall have the meanings ascribed to them in General Data Protection Regulation (EU) 2016/679. 
+**“processing“**, **“data controller“**, **“data subject“**, **“supervisory authority”** and **“data processor”** shall have the meanings ascribed to them in General Data Protection Regulation (EU) 2016/679. 
 
-“Security Breach“ means any breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, Personal Data transmitted, stored or otherwise processed by The Company, its sub-processors, or any other identified or unidentified third party. 
+**“Security Breach“** means any breach of security leading to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of, or access to, Personal Data transmitted, stored or otherwise processed by The Company, its sub-processors, or any other identified or unidentified third party. 
 
-“Verified Technical Resource” means a category, in accordance with Article 13(1)(e) of the GDPR, of technical contractors verified by The Company to be able to technically adhere to the security provisions of this agreement and the GDPR, have entered an agreement with The Company at least as restrictive as this agreement; and may provide services to The Company when requested.  
+**“Verified Technical Resource”** means a category, in accordance with Article 13(1)(e) of the GDPR, of technical contractors verified by The Company to be able to technically adhere to the security provisions of this agreement and the GDPR, have entered an agreement with The Company at least as restrictive as this agreement; and may provide services to The Company when requested.  
 
-“Registration” refers to the sign-up flow, in which Customer needs to create an account to use Software. Customers need to provide relevant Data before accessing the software and then the Customer receives a verification email, in order to set up his account. 
+**“Registration”** refers to the sign-up flow, in which Customer needs to create an account to use Software. Customers need to provide relevant Data before accessing the software and then the Customer receives a verification email, in order to set up his account. 
 
-“Order Form” means any online or written order form for Services, submitted by Customer either during an online order process (via The Company website, via email or pdf), or separately signed by Customer and submitted to The Company, and any future purchase order or order form that makes reference to this Agreement. 
+**“Order Form”** means any online or written order form for Services, submitted by Customer either during an online order process (via The Company website, via email or pdf), or separately signed by Customer and submitted to The Company, and any future purchase order or order form that makes reference to this Agreement. 
 
-“Documentation” means the reference manuals/materials, online presentations, and other information describing the SaaS and/or Services provided or otherwise made available to Customer. Documentation includes specifications for the Services set forth in any Order Form. 
+**“Documentation”** means the reference manuals/materials, online presentations, and other information describing the SaaS and/or Services provided or otherwise made available to Customer. Documentation includes specifications for the Services set forth in any Order Form. 
 
-“SaaS Services” refer to the specific internet-accessible software licensing and delivery model in which The Company’ Software that is hosted by The Company or external providers is licensed on a subscription basis to Customer. The Company makes Saas Services available to Customer over a network on a term-use basis. SaaS Services under this Agreement include cloud computing, along with infrastructure as a service (IaaS) and platform as a service (PaaS). 
+**“SaaS Services”** refer to the specific internet-accessible software licensing and delivery model in which The Company’ Software that is hosted by The Company or external providers is licensed on a subscription basis to Customer. The Company makes Saas Services available to Customer over a network on a term-use basis. SaaS Services under this Agreement include cloud computing, along with infrastructure as a service (IaaS) and platform as a service (PaaS). 
 
-“Other Services” means all technical and non-technical services performed or delivered by The Company under this Agreement, including, without limitation, implementation services and other professional services, training and education services but excluding the SaaS Services and the Maintenance Services. Other Services will be provided on a time and material basis at such times or during such periods, as may be specified in an Order Form and mutually agreed to by the parties. 
+**“Other Services”** means all technical and non-technical services performed or delivered by The Company under this Agreement, including, without limitation, implementation services and other professional services, training and education services but excluding the SaaS Services and the Maintenance Services. Other Services will be provided on a time and material basis at such times or during such periods, as may be specified in an Order Form and mutually agreed to by the parties. 
 
-“Services” means all services, not limited to SaaS Services, and Other Services delivered by The Company to Customer under this Agreement. 
+**“Services”** means all services, not limited to SaaS Services, and Other Services delivered by The Company to Customer under this Agreement. 
 
-“Materials” refer to the algorithms, code, scientific papers and publications, case studies, visual interfaces, graphics, design, compilation, products, software, services, templates and every content visible in the website and in the software of The Company. 
+**“Materials”** refer to the algorithms, code, scientific papers and publications, case studies, visual interfaces, graphics, design, compilation, products, software, services, templates and every content visible in the website and in the software of The Company. 
 
-“Subscription Term” shall mean the period specified in an Order Form during which Customer will have on-line access and use of Services. The Subscription Term shall renew for successive 12-month periods unless either party delivers written notice of non-renewal to the other party at least 30 days prior to the expiration of the then current Subscription Term. 
+**“Subscription Term”** shall mean the period specified in an Order Form during which Customer will have on-line access and use of Services. The Subscription Term shall renew for successive 12-month periods unless either party delivers written notice of non-renewal to the other party at least 30 days prior to the expiration of the then current Subscription Term. 
 
-“Subscription Service” refers to the Customer’s licensed use of the Services. 
+**“Subscription Service”** refers to the Customer’s licensed use of the Services. 
 
-“Subscription Fee” refers to applicable fee for the current or future subscription period 
+**“Subscription Fee”** refers to applicable fee for the current or future subscription period 
 
-“Subscription Billing Date” refer to the date when you purchase your first subscription for the Service. 
+**“Subscription Billing Date”** refer to the date when you purchase your first subscription for the Service. 
 
 ## 2. SAAS SERVICES & ACCESS RIGHTS  
 
@@ -125,71 +125,71 @@ provided that the Customer shall cover all costs incurred by The Company in conn
 
 ## 5. SUB-PROCESSING 
 
-5.1 The Customer grants a general authorization to The Company to appoint any Affiliate as sub-processors, and (b) to The Company and any Affiliate to appoint any Verified Technical Resource to act as third party data center operators, and outsourced marketing, business, engineering and customer support providers as sub-processors to support the performance of the Service. 
+**5.1** The Customer grants a general authorization to The Company to appoint any Affiliate as sub-processors, and (b) to The Company and any Affiliate to appoint any Verified Technical Resource to act as third party data center operators, and outsourced marketing, business, engineering and customer support providers as sub-processors to support the performance of the Service. 
 
-5.2 The Company will only use a Verified Technical Resource as sub-processors of any Personal Data. If The Company is reasonably able to provide the Service to the Customer in accordance with the Main Agreement without using the sub-processor and decides in its discretion to do so, then the Customer will have no further rights under this clause 4.2 in respect of the proposed use of the sub-processor. If The Company requires use of a sub-processor at its discretion and Customer does not want The Company to use a Verified Technical Resource as a sub-processor, Customer may provide written notification of any objections to The Company. Within ninety (90) days from the Customer’s notification of objections, the Customer may within thirty (30) days following the end of the ninety (90) day period referred to above, terminate the applicable Order Form without refund. If the Customer does not provide a timely objection to the use of a Verified Technical Resource in accordance with this clause 4.2, the Customer will be deemed to have consented to the use of any Verified Technical Resource as a sub-processor and waived its right to object. The Company may use a new or replacement Verified Technical Resource as a sub-processor whilst the objection procedure in this clause 4.2 is in process. 
+**5.2** The Company will only use a Verified Technical Resource as sub-processors of any Personal Data. If The Company is reasonably able to provide the Service to the Customer in accordance with the Main Agreement without using the sub-processor and decides in its discretion to do so, then the Customer will have no further rights under this clause 4.2 in respect of the proposed use of the sub-processor. If The Company requires use of a sub-processor at its discretion and Customer does not want The Company to use a Verified Technical Resource as a sub-processor, Customer may provide written notification of any objections to The Company. Within ninety (90) days from the Customer’s notification of objections, the Customer may within thirty (30) days following the end of the ninety (90) day period referred to above, terminate the applicable Order Form without refund. If the Customer does not provide a timely objection to the use of a Verified Technical Resource in accordance with this clause 4.2, the Customer will be deemed to have consented to the use of any Verified Technical Resource as a sub-processor and waived its right to object. The Company may use a new or replacement Verified Technical Resource as a sub-processor whilst the objection procedure in this clause 4.2 is in process. 
 
-5.3 The Company will ensure that any sub-processor it engages to provide an aspect of the Service on its behalf in connection with this agreement does so only on the basis of a written contract which imposes on such sub-processor terms substantially no less protective of Personal Data than those imposed on The Company in this agreement (the “Relevant Terms”). The Company shall procure the performance by such sub-processor of the Relevant Terms and shall be liable to the Customer for any breach by such person of any of the Relevant Terms. 
+**5.3** The Company will ensure that any sub-processor it engages to provide an aspect of the Service on its behalf in connection with this agreement does so only on the basis of a written contract which imposes on such sub-processor terms substantially no less protective of Personal Data than those imposed on The Company in this agreement (the “Relevant Terms”). The Company shall procure the performance by such sub-processor of the Relevant Terms and shall be liable to the Customer for any breach by such person of any of the Relevant Terms. 
 
 ## 6. CUSTOMERS OBLIGATIONS 
 
-6.1 Customer shall provide commercially reasonable information and assistance to The Company to enable The Company to deliver the Services. 
+**6.1** Customer shall provide commercially reasonable information and assistance to The Company to enable The Company to deliver the Services. 
 
-6.2 Customer shall comply with all applicable local, state, national and foreign laws in connection with its use of the SaaS Services, including those laws related to data privacy, international communications, and the transmission of technical or personal data. Customer acknowledges that The Company exercises no control over the content of the information transmitted by Customer through the Services. Customer shall not upload, post, reproduce or distribute any information, software or other material protected by copyright, privacy rights, or any other intellectual property right without first obtaining the permission of the owner of such rights. 
+**6.2** Customer shall comply with all applicable local, state, national and foreign laws in connection with its use of the SaaS Services, including those laws related to data privacy, international communications, and the transmission of technical or personal data. Customer acknowledges that The Company exercises no control over the content of the information transmitted by Customer through the Services. Customer shall not upload, post, reproduce or distribute any information, software or other material protected by copyright, privacy rights, or any other intellectual property right without first obtaining the permission of the owner of such rights. 
 
-6.3 Customer represents, covenants, and warrants that Customer will use the Services only in compliance with the purpose the Services are provided for and all applicable laws and regulations. Customer hereby agrees to indemnify and hold harmless The Company against any damages, losses, liabilities, settlements and expenses (including without limitation costs and attorneys’ fees) in connection with any claim or action that arises from an alleged violation of the foregoing or otherwise from Customer’s use of Services. Although The Company has no obligation to monitor Customer’s use of the Services, The Company may do so and may prohibit any use of the Services it believes may be (or alleged to be) in violation of the foregoing. 
+**6.3** Customer represents, covenants, and warrants that Customer will use the Services only in compliance with the purpose the Services are provided for and all applicable laws and regulations. Customer hereby agrees to indemnify and hold harmless The Company against any damages, losses, liabilities, settlements and expenses (including without limitation costs and attorneys’ fees) in connection with any claim or action that arises from an alleged violation of the foregoing or otherwise from Customer’s use of Services. Although The Company has no obligation to monitor Customer’s use of the Services, The Company may do so and may prohibit any use of the Services it believes may be (or alleged to be) in violation of the foregoing. 
 
-6.4 Customer shall be responsible for obtaining and maintaining any equipment and ancillary services needed to connect to, access or otherwise use the Services, including, without limitation, modems, hardware, servers, software, operating systems, networking, web servers and the like (collectively, “Equipment”). Customer shall also be responsible for maintaining the security of the Equipment, Customer account, passwords (including but not limited to User passwords) and files, and for all uses of Customer account or the Equipment with or without Customer’s knowledge or consent. 
+**6.4** Customer shall be responsible for obtaining and maintaining any equipment and ancillary services needed to connect to, access or otherwise use the Services, including, without limitation, modems, hardware, servers, software, operating systems, networking, web servers and the like (collectively, “Equipment”). Customer shall also be responsible for maintaining the security of the Equipment, Customer account, passwords (including but not limited to User passwords) and files, and for all uses of Customer account or the Equipment with or without Customer’s knowledge or consent. 
 
-6.5 Customer is solely responsible for collecting, inputting and updating all Customer Data stored on the Host, and for ensuring that the Customer Data does not (i) include anything that actually or potentially infringes or misappropriates the copyright, trade secret, trademark or other intellectual property right of any third party, or (ii) contain anything that is obscene, defamatory, harassing, offensive or malicious. 
+**6.5** Customer is solely responsible for collecting, inputting and updating all Customer Data stored on the Host, and for ensuring that the Customer Data does not (i) include anything that actually or potentially infringes or misappropriates the copyright, trade secret, trademark or other intellectual property right of any third party, or (ii) contain anything that is obscene, defamatory, harassing, offensive or malicious. 
 
-6.6 Customer shall: (i) notify The Company immediately of any unauthorized use of any password or user id or any other known or suspected breach of security, (ii) report to The Company immediately and use reasonable efforts to stop any unauthorized use of the Services that is known or suspected by Customer, and (iii) not provide false identity information to gain access to or use the Services. 
+**6.6** Customer shall: (i) notify The Company immediately of any unauthorized use of any password or user id or any other known or suspected breach of security, (ii) report to The Company immediately and use reasonable efforts to stop any unauthorized use of the Services that is known or suspected by Customer, and (iii) not provide false identity information to gain access to or use the Services. 
 
-6.7 Subject to the terms and conditions of this Agreement, Customer grants to The Company a limited, non-exclusive and non-transferable license, to copy, store, configure, perform, display and transmit Customer Data solely as necessary to provide the Services to Customer. 
+**6.7** Subject to the terms and conditions of this Agreement, Customer grants to The Company a limited, non-exclusive and non-transferable license, to copy, store, configure, perform, display and transmit Customer Data solely as necessary to provide the Services to Customer. 
 
-6.8 Customer shall not misuse Services, attempting to access them using a method other than through the interfaces and instruction The Company provides 
+**6.8** Customer shall not misuse Services, attempting to access them using a method other than through the interfaces and instruction The Company provides 
 
-6.9 Customer shall not use any manual or automated system or software to extract data from the Website or other interfaces through which The Company makes its Services available 
+**6.9** Customer shall not use any manual or automated system or software to extract data from the Website or other interfaces through which The Company makes its Services available 
 
-6.10 Customer shall not probe, scan or test vulnerability of any of The Company’s system or network 
+**6.10** Customer shall not probe, scan or test vulnerability of any of The Company’s system or network 
 
 ## 7. PRICING AND PAYMENT TERMS 
 
-7.1 The service may include automatically recurring monthly or annual payments (“Subscription Service“). If you activate Subscription Service, you authorize The Company to periodically charge, on a going-forward basis and until cancellation of either the recurring billing or your account, all accrued sums on or before the payment due date for the accrued sums.  
+**7.1** The service may include automatically recurring monthly or annual payments (“Subscription Service“). If you activate Subscription Service, you authorize The Company to periodically charge, on a going-forward basis and until cancellation of either the recurring billing or your account, all accrued sums on or before the payment due date for the accrued sums.  
 
-7.2 The “Subscription Billing Date” is the date when you purchase your first subscription for the Service. You will be charged and billed on the Subscription Billing Date with all applicable fees for the next subscription period. The subscription will continue unless and until you cancel your subscription or The Company terminates it. You need to cancel your subscription before it renews in order to avoid being billed for the next periodic fee (“Subscription Fee“). 
+**7.2** The “Subscription Billing Date” is the date when you purchase your first subscription for the Service. You will be charged and billed on the Subscription Billing Date with all applicable fees for the next subscription period. The subscription will continue unless and until you cancel your subscription or The Company terminates it. You need to cancel your subscription before it renews in order to avoid being billed for the next periodic fee (“Subscription Fee“). 
 
-7.3 The Company may suspend or terminate access to the Service for any account for which any amount is due, but unpaid.  
+**7.3** The Company may suspend or terminate access to the Service for any account for which any amount is due, but unpaid.  
 
 ## 8. ORDERS 
 
-8.1 The Subscription Fees vary according to the subscription plan the Customer chooses and which are available upon request or as updated on the RavensAI ChemX website. For customized services and solutions, the corresponding Subscription fees or services fees are set in the separate Order Form.  
+**8.1** The Subscription Fees vary according to the subscription plan the Customer chooses and which are available upon request or as updated on the RavensAI ChemX website. For customized services and solutions, the corresponding Subscription fees or services fees are set in the separate Order Form.  
 
-8.2 Subscription Fees’ payment is irrevocable and non-refundable, except as set forth in the Order Form and this Agreement. Customer shall provide The Company with complete and accurate billing and contact information during the registration and invoicing process. 
+**8.2** Subscription Fees’ payment is irrevocable and non-refundable, except as set forth in the Order Form and this Agreement. Customer shall provide The Company with complete and accurate billing and contact information during the registration and invoicing process. 
 
-8.5 Where Customer makes payment through bank transfer, The Company will then invoice Customer on a basis based on the relevant billing period, and all such amounts invoiced will be due within fourteen (14) days of Customers receipt of The Company’ invoice. Late payments shall be subject to a service charge of one and one-half percent (1.5%) per month. 
+**8.5** Where Customer makes payment through bank transfer, The Company will then invoice Customer on a basis based on the relevant billing period, and all such amounts invoiced will be due within fourteen (14) days of Customers receipt of The Company’ invoice. Late payments shall be subject to a service charge of one and one-half percent (1.5%) per month. 
 
-8.6 Customer shall pay all personal property, sales, use, value-added, withholding and similar taxes arising from the transactions described in this Agreement, even if such amounts are not listed on an Order Form. 
+**8.6** Customer shall pay all personal property, sales, use, value-added, withholding and similar taxes arising from the transactions described in this Agreement, even if such amounts are not listed on an Order Form. 
 
-8.7 The Company may terminate or suspend Customers access to Services if the billing or contact information provided by is false. Customer agrees that The Company shall not be liable to User or to any third party for any liabilities, claims or expenses arising from or relating to suspension of the Services resulting from Customers nonpayment. 
+**8.7** The Company may terminate or suspend Customers access to Services if the billing or contact information provided by is false. Customer agrees that The Company shall not be liable to User or to any third party for any liabilities, claims or expenses arising from or relating to suspension of the Services resulting from Customers nonpayment. 
 
 ## 9. CUSTOMER ASSISTANCE  
 
-9.1 Support services are included in the Service, and The Company shall not assess any additional Fees, costs or charges for such Support Services. The Company shall:  
+**9.1** Support services are included in the Service, and The Company shall not assess any additional Fees, costs or charges for such Support Services. The Company shall:  
 
 (a)  correct all Service Errors, including providing defect repair and programming corrections 
 
 (b)  Respond to and resolve reasonable support requests received by Customer by email email or telephone (see RavensAI ChemX website). For specialized and demanding support requests, The Company preserves the right to charge The Customer, based on a mutual agreement set in a separate Order Form. 
 
-9.2 For reasonable supports requests, the response time will be based on the resolving time needed, but will not exceed 48 hours, starting from the receival of the support request, during a normal working week and - hours. 
+**9.2** For reasonable supports requests, the response time will be based on the resolving time needed, but will not exceed 48 hours, starting from the receival of the support request, during a normal working week and - hours. 
 
 ## 10. DATA OWNERSHIP  
 
-10.1 This vital component of this agreement establishes who retains the responsibilities and the rights to data that is entered into the Software and used by The Company to provide Services. 
+**10.1** This vital component of this agreement establishes who retains the responsibilities and the rights to data that is entered into the Software and used by The Company to provide Services. 
 
-10.2 Customer may, but is not required to, provide Data to the Company in connection with this Agreement. As between Customer and The Company, Customer is and will remain the sole and exclusive responsible of Data source and consent of source, and sole and exclusive owner of all rights, titles, and interests in and to all Data, including all Intellectual Property Rights.  
+**10.2** Customer may, but is not required to, provide Data to the Company in connection with this Agreement. As between Customer and The Company, Customer is and will remain the sole and exclusive responsible of Data source and consent of source, and sole and exclusive owner of all rights, titles, and interests in and to all Data, including all Intellectual Property Rights.  
 
-10.3 The Company is not in any way responsible for the source and potential previous transferability of Data that is entered into the Software nor is it liable for any loss or alteration or other damage to the data before entering into the Software. By clicking “I ACCEPT” button through the registration process, The Customer explicitly accepts that he is the Data Subject and owner of the data that is entered into the Software, as “Data Subject” is officially defined by The General Data Protection Regulation 2016/679 in EU law on data protection and privacy in the European Union and the European Economic Area. 
+**10.3** The Company is not in any way responsible for the source and potential previous transferability of Data that is entered into the Software nor is it liable for any loss or alteration or other damage to the data before entering into the Software. By clicking “I ACCEPT” button through the registration process, The Customer explicitly accepts that he is the Data Subject and owner of the data that is entered into the Software, as “Data Subject” is officially defined by The General Data Protection Regulation 2016/679 in EU law on data protection and privacy in the European Union and the European Economic Area. 
 
 ## 11. CHANGES POLICY 
 
