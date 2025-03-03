@@ -55,8 +55,8 @@ extra:
   social:
     - icon: simple/googlehome
       link: https://www.ravenbiosciences.com/products/chemx/
-    - icon: simple/linkedin
-      link: https://www.linkedin.com/products/raven-biosciences-ravensai-chemx/
+    #- icon: simple/linkedin
+    - link: https://www.linkedin.com/products/raven-biosciences-ravensai-chemx/
   generator: false
 
 copyright: Copyright &copy; 2024 Raven biosciences
