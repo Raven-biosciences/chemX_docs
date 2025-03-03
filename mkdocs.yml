@@ -80,6 +80,7 @@ nav:
     - Interface overview: interfaceoverview.md
     - Tutorial: tutorial.md
     - Glossary: glossary.md
+    - Featurizers: featurizers.md
   - Getting help:  
     - FAQ: FAQ.md
     - Troubleshooting: troubleshooting.md
