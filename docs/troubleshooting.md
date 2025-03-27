@@ -1,3 +1,18 @@
+## I can't upload my csv file. How is it supposed to be formatted?
+
+ChemX can read csv files in several different ways, but below is an example of an accepted format. If you are having issues it can help to add "smiles" or "SMILES" as header to the relevant column. Note, that if you have very few compounds, ChemX may have a harder time assigning the columns (and if you have fewer than 10 you are unable to train a model). 
+
+The csv file must have a column with smiles strings and at least one column with a target parameter - either quantitative or categorical. A name/ID column is not required.
+
+Drug_ID,Drug,Y
+22416348,Cc1occc1C(=O)NCc1ccco1,20.17528
+26665387,COc1ccc(/C=C2\SC(=S)N(N3CCOCC3)C2=O)c(OC)c1,10.2263
+862531,C[C@H](NC(=O)Nc1cccc(C(F)(F)F)c1)C(=O)O,2.0442
+
+## I uploaded my csv file but one of the columns were wrongly interpreted as text instead of categorical data. What do I do?
+
+After upload, you can change the parameter type by clicking "Reassign parameter type" in the "Additional actions" panel on the right. 
+
 ## I can't get my target data normally distributed. Can I still train a regression model?
 
 Yes, even though you don't have normally distributed target data, it is still possible to train a regression model using a subset of the machine learning algorithms that ChemX employs under the hood. 
