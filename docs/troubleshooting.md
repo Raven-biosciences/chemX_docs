@@ -5,9 +5,12 @@ ChemX can read csv files in several different ways, but below is an example of a
 The csv file must have a column with smiles strings and at least one column with a target parameter - either quantitative or categorical. A name/ID column is not required.
 
 Drug_ID,Drug,Y
+
 22416348,Cc1occc1C(=O)NCc1ccco1,20.17528
+
 26665387,COc1ccc(/C=C2\SC(=S)N(N3CCOCC3)C2=O)c(OC)c1,10.2263
-862531,C[C@H](NC(=O)Nc1cccc(C(F)(F)F)c1)C(=O)O,2.0442
+
+862531,CC(NC(=O)Nc1cccc(C(F)(F)F)c1)C(=O)O,2.0442
 
 ## I uploaded my csv file but one of the columns were wrongly interpreted as text instead of categorical data. What do I do?
 
