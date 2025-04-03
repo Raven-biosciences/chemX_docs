@@ -59,4 +59,6 @@ After you have applied a model to a screening library, you can see a UMAP of bot
 
 If you expect the protonation state to be important for predicting your target paramater, then you have to edit your SMILES accordingly and deselect sanitization upon upload to ChemX.
 
+## I am trying to export my predictions, but nothing happens
 
+Clicking the "Export data as csv" button from the Workflow panel (only available from within screening libraries, not modelling projects) results in your browser downloading a complete data file to your Downloads folder without further questions. If you have many predictions it may take some time to download, and if you have a blocker added to your browser it may silently block the download and you will have to find out how to allow the download.
