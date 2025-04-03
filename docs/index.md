@@ -1,8 +1,8 @@
 # Welcome to RavensAI's ChemX!
 
-***ChemX is our automated machine learning platform specifically designed for molecular data.***
+**ChemX is our automated machine learning platform specifically designed for molecular data.**
 
-**If you have a data file with a column of molecules in SMILES format and a column of an experimental parameter of interest, then ChemX will help you to train models that can predict your experimental parameter for new molecules without you needing to become an expert in cheminformatics.** 
+If you have a data file with a column of molecules in SMILES format and a column of an experimental parameter of interest, then ChemX will help you to train models that can predict your experimental parameter for new molecules without you needing to become an expert in cheminformatics.
 
 The experimental parameter could be binding affinity, drug potency, molecular lipophilicity, etc - any property that you can expect to depend on chemical structure!
 
