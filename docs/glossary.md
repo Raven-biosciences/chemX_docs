@@ -33,6 +33,9 @@
 `Target parameter`
 : The target parameter is the physical parameter that you are training a model to predict. It could be e.g. membrane permeability or binding affinity.
 
+`Thoroughness`
+: The thoroughness parameter influences the tuning effort during model training. More effort will find better models, but also takes more time. Consider using Preliminary for a first, quick assessment.
+
 `UMAP`
 : A UMAP is a reduced dimension representation of the chemical complexity. If two molecules are very different according to their circular fingerprints, then they are distant in the UMAP and vice versa. **Note, the exact distance between two clusters is not interpretable and the size of a cluster relative to other cluster sizes is also not interpretable.**
 

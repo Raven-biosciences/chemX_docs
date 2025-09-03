@@ -16,7 +16,7 @@ To ease navigation when doing the tutorial we set up the following style to guid
 
 This lighter font is the base font and is used when discussing considerations required at each part of the tutorial.
 
-**This bold font denotes actions required to follow the tutorial. When referencing menu items or action items from ChemX are stated in** ***italics***. 
+**This bold font denotes actions required to follow the tutorial. When referencing menu items or action items from ChemX they are stated in** ***italics***. 
 
 Additionally, we have added boxes with Extended Information which is not esssential to complete the tutorial, but relevant if you are unfamiliar with training machine learning models for molecular datasets.
 
@@ -66,7 +66,7 @@ If the data remain not normally distributed following transformation it is still
 
 Molecules have to be translated into vector or matrix format before you can train a machine learning model. This is called featurization of the molecules. Many different featurizers have been developed and each capture only part of the chemistry of a molecule, so it is important to select a featurizer that can capture the information required to predict a given target parameter. Many featurizers result in highly abstract features and are not easily interpreted if at all. 
 
-**Go to *Workflow > Featurize and Model data*. From a dropdown menu you select which of your target parameters or transforms thereof you would like to train models on, and below that you select which featurizers you would like to base the models on. Click *SUBMIT* when ready to start modelling and go grab a coffee or the like as a modelling job can take hours to complete.**
+**Go to *Workflow > Featurize and Model data*. From a dropdown menu you select which of your target parameters or transforms thereof you would like to train models on, and below that you select which featurizers you would like to base the models on. Click *SUBMIT* when ready to start modelling and go grab a coffee or the like as a modelling job can take hours to complete. For now, the "typical" thoroughness is fine. If you are short on time, you may choose preliminary instead.**
 
 The featurizers are subdivided into 1D-, 2D-, and 3D featurizers to help users select the appropriate featurizer. Generally, the higher the dimensionality, the higher the complexity, and thus the higher the time required to featurize the molecules. 
 
@@ -77,7 +77,7 @@ The featurizers are subdivided into 1D-, 2D-, and 3D featurizers to help users s
 
 ## Identifying the best model
 
-**When the modelling tasks have completed, you can find the results by clicking *Models* in the top bar.**
+**When the modelling tasks have completed, you can find the results by clicking *Models* in the top bar or using the *completed tasks* list (click the bell icon) to link you there directly.**
 
 ![](./assets/PerformanceHeatmap.png) 
 
@@ -112,17 +112,21 @@ When a promising model has been identified it is possible to probe the model for
 
 All of the explainanability analyses available in ChemX are calculated relative to a representative molecule of particular interest. This molecule may simply be the best performer from your dataset, but ChemX also allows you to select representatives based on both performance and structural similarity to other molecules in the dataset. 
 
-**Go to *Workflow > Explain Regression Model* which will take you to the view below.**
+**Go to *Workflow > Explain Model* which will take you to the view below.**
 
 ![](./assets/ExplainWizardA.png) 
 
-**Select the target parameter and featurizer of the model you are interested in learning more about and inform ChemX if lower og higher values are considered good for your particular target parameter. Then choose between clustering molecules to find representatives or manual selection of molecules before clicking *NEXT*.**
+**Select the target parameter and featurizer of the model you are interested in learning more about and click *NEXT***
+
+![](./assets/ExplainWizardA2.png) 
+
+**Then inform ChemX if lower og higher values are considered good for your particular target parameter. Also choose between clustering molecules to find representatives or manual selection of molecules before clicking *NEXT* again.**
 
 **If you chose manual selection, you get to the below view. If you have a specific molecule of interest you can supply its ID directly. If not, you can choose between top X molecules or top X % of molecules in the dataset as representatives for explainability analysis. X can be set freely in both cases.**
 
 ![](./assets/ExplainWizardB.png) 
 
-**If you chose clustering, you instead get to this view. You can cluster molecules based on their molecular scaffolds or based on overall chemical similarity between molecules. Select if you want to perform the explainability analysis for representatives of all clusters or if you are only interested in the X best/biggest clusters for larger datasets.**
+**If you chose clustering, you instead get to the below view. You can cluster molecules based on their molecular scaffolds or based on overall chemical similarity between molecules. Select if you want to perform the explainability analysis for representatives of all clusters or if you are only interested in the X best/biggest clusters for larger datasets.**
 
 ![](./assets/ExplainWizardC.png) 
 
@@ -137,7 +141,7 @@ All of the explainanability analyses available in ChemX are calculated relative 
 
 Here you see a list of the representative molecules along with their predicted performance and the size of the cluster they were in. The representative molecules are also highlighted on the UMAP which is a reduced dimension representation of the chemical complexity.
 
-**To see the explanations for a particular molecule, simply click the molecule in the table on the right. Clicking the molecule with ID 3277 from the biggest cluster brings you to the below results.**
+**To see the explanations for a particular molecule, simply click the molecule in the table on the right. Clicking the molecule from the biggest cluster brings you to the below results.**
 
 ![](./assets/ExplainDetailedMoleculeView.png) 
 
@@ -164,7 +168,7 @@ By analysing the important features and a few counterfactuals, you can start to 
 
 If you don’t have in-house screening libraries of interest it is worth having a look at the [ZINC](https://cartblanche22.docking.org/) or [EnamineReal](https://enamine.net/compound-collections/real-compounds/real-database) databases. Especially ZINC is very handy, as you can download molecule libraries of lead-like molecules or other curated subsets and filter on compound purchasability. 
 
-**To apply a model, simply navigate to the model you want to use or the screening library you want to use it on and click *Screen with Favorite Model* in the Workflow panel on the right. When the screening is complete, you can find the predictions at *Screening Libraries > YourLibraryName* and go to *Predicted Parameters* in the top bar and clicking the name of the screening task in the list. This will bring you to the below view.**
+**To apply a model, simply navigate to the model you want to use or the screening library you want to use it on and click *Screen with Model* in the Workflow panel on the right. When the screening is complete, you can find the predictions at *Screening Libraries > YourLibraryName* and go to *Predicted Parameters* in the top bar and clicking the name of the screening task in the list. This will bring you to the below view.**
 
 ![](./assets/ScreeningLibDetailedView.png)
 
@@ -173,7 +177,7 @@ Here you get an overview of the predicted performance of your library. Did anyth
 When evaluating the results it is important to consider the model’s applicability to your screening library. One way to assess this is by using UMAPs - the reduced dimensionality plots we have seen a few times in this tutorial already. This time we map both the training data and the screening library in the same map to see if the molecules in the screening library are similar to what the model was trained on. If both datasets exist in the different groupings then the chemical complexity is similar. If the map has many distinct groupings with molecules from only one of the datasets then the model, or if there is no overlap at all, then the model has to extrapolate its learnings to unknown chemistry and you should proceed with caution.
 
 !!! warning "IMPORTANT"
-    When modelling based on molecular structure, a common pitfall is training you model on one type of chemistry and then using it on another type of chemistry that the model has learnt nothing about.
+    When modelling based on molecular structure, a common pitfall is training you model on one type of chemistry and then using it on another type of chemistry that the model has learnt nothing about. Use the UMAP to evaluate if this is the case for your screening. If the molecules in the screening library overlap with the molecules from the training set you should be okay moving forward. If not, you need additional validation of the results.
 
 ## Exploring the screening results
 

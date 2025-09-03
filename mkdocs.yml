@@ -1,6 +1,6 @@
 site_name: Documentation
 #TODO
-site_url: https://example.com
+site_url: https://chemx.ravensai.com/docs
 
 theme:
   name: material
