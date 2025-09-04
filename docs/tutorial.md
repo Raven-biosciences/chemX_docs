@@ -31,7 +31,7 @@ Additionally, we have added boxes with Extended Information which is not esssent
 
 ![](./assets/CreateProject.png)
 
-Following upload, you are taken to the below view. If any molecule presented warnings during sanitization you can find them by sorting the table by "Warning" and look through them by clicking on the molecule ID. **If you move away from this view and need to re-find it, simply click *Check Molecules* in the Workflow panel on the right**
+Following upload, you are taken to the below view. If any molecule presented warnings during sanitization you can find them by sorting the table by "Warning" and look through them by clicking on the molecule ID. **If you move away from this view and need to re-find it, simply click *Check Molecules* in the Workflow panel on the right.** A summary of the warnings is provided under the *Details* tab.
 
 ![](./assets/MoleculeView.png) 
 
