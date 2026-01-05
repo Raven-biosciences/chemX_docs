@@ -63,6 +63,7 @@ copyright: Copyright &copy; 2024 Raven biosciences
 
 plugins:
   - search
+  - mkdocs-video
   - exporter:
       formats:
         pdf:

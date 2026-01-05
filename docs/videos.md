@@ -2,4 +2,4 @@
 <video controls src="./assets/teaserChemX.mp4" type="video/mp4"></video>
 
 ## 6 minute ChemX walk-through
-![](./assets/introChemX.mp4)
+![type:video](./assets/introChemX.mp4)
