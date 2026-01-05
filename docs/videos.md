@@ -3,3 +3,4 @@
 
 ## 6 minute ChemX walk-through
 ![type:video](./assets/introChemX.mp4)
+![type:video](https://www.youtube.com/embed/LookKxESmyU)
