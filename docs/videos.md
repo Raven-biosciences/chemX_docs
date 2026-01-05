@@ -1,5 +1,5 @@
 ## Chemx quick introduction
-<video controls src="./assets/teaserChemX.mp4" title="ChemX intro"></video>
+<video controls src="./assets/teaserChemX.mp4" type="video/mp4"></video>
 
 ## 6 minute ChemX walk-through
 ![](./assets/introChemX.mp4)
