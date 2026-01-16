@@ -82,6 +82,7 @@ nav:
     - Video guides: videos.md
     - Glossary: glossary.md
     - Featurizers: featurizers.md
+    - Performance metrics: performancemetrics.md
   - Getting help:  
     - FAQ: FAQ.md
     - Troubleshooting: troubleshooting.md
