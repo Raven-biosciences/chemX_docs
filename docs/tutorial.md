@@ -108,7 +108,7 @@ Be aware that the best regression model may not be the model with the highest RÂ
 
 ## Probing the model 
 
-When a promising model has been identified it is possible to probe the model for what chemical features it found important for predicting the target parameter despite the featurization and machine leattning algorithm likely obscuring interpretation and explainability.
+When a promising model has been identified it is possible to probe the model for what chemical features it found important for predicting the target parameter despite the featurization and machine learning algorithm likely obscuring interpretation and explainability.
 
 All of the explainanability analyses available in ChemX are calculated relative to a representative molecule of particular interest. This molecule may simply be the best performer from your dataset, but ChemX also allows you to select representatives based on both performance and structural similarity to other molecules in the dataset. 
 
